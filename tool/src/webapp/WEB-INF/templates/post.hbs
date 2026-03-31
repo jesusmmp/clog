@@ -53,7 +53,7 @@
 					{{#each comments}}
 					<div class="clog-comment">
 						<div style="overflow:auto; margin-bottom: 10px;">
-                            <div class="clog-photo" style="background-image:url(/direct/profile/{{creatorId}}/image)"></div>
+                            <div class="clog-photo clog-photo-bigger" style="background-image:url(/direct/profile/{{creatorId}}/image/{{#if siteId}}?siteId={{siteId}}{{/if}})"></div>
 							<div style="float:left;">
                                 <a class="profile" data-user-id="{{creatorId}}">{{creatorDisplayName}}</a>
                                 <br/>
